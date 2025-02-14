@@ -31,10 +31,4 @@ spec:
             secretKeyRef:
               name: backend-secrets
               key: jwt-secret
-        resources:
-          limits:
-            memory: "512Mi"
-            cpu: "500m"
-          requests:
-            memory: "256Mi"
-            cpu: "250m"
+        
