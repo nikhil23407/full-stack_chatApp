@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: nikhil23407/frontend-chatapp:latest
+        image: nikhil23407/frontend-chat:latest
         ports:
         - containerPort: 80
